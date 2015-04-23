@@ -23,6 +23,24 @@ public class CalculatorTest {
 		assertEquals(12, calc.add(9, 4));
 	}
 	
+	@Test
+	public void testSubtract()
+	{
+		assertEquals(5, calc.subtract(9, 4));
+	}
+	
+	@Test
+	public void testMultiply()
+	{
+		assertEquals(36, calc.multiply(9, 4));
+	}
+	
+	@Test
+	public void tesDevide()
+	{
+		assertEquals(2, calc.devide(9, 4));
+	}
+	
 	@After
 	public void tearDown()
 	{
