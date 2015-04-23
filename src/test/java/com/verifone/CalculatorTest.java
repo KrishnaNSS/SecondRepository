@@ -20,7 +20,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd()
 	{
-		assertEquals(12, calc.add(9, 4));
+		assertEquals(13, calc.add(9, 4));
 	}
 	
 	@Test
